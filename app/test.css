@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.subLightContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 40px;
+}
+
+.subDarkContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  background: black;
+  border: 1px solid black;
+  padding: 40px;
+}
+
+button {
+  cursor: pointer;
+}
